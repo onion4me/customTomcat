@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f255d4-3946-44b0-8a53-233a0df3b204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587223970378</updated>
       <workItem from="1587223972753" duration="3800000" />
-      <workItem from="1587267864027" duration="12023000" />
+      <workItem from="1587267864027" duration="12099000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1587224247106</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587279723977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加README文件">
+      <created>1587279947556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587279947556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +147,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="基础结构和程序入口" />
     <MESSAGE value="post请求和get请求功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="post请求和get请求功能实现" />
+    <MESSAGE value="增加README文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加README文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Auto_Import" timestamp="1587272699527">
@@ -159,10 +167,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587273215062" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1587279723104">
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1587279946927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279723104" />
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279946927" />
     <state width="726" height="466" key="DebuggerActiveHint" timestamp="1587279519010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587223996059" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1587279733650">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1587279948992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279733650" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279948992" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587276083645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
