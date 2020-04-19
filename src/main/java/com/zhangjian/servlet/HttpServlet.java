@@ -1,13 +1,14 @@
 package com.zhangjian.servlet;
 
 import com.zhangjian.config.Constant;
+import com.zhangjian.utils.Logger;
 
 /**
  * @author zhangjian
  * @email zhangjian@czrj.fun
  * @date 2020/4/18
  */
-public class HttpServlet implements Servlet,RequestMethod{
+public abstract class HttpServlet implements Servlet,RequestMethod,ServletConfig{
 
     @Override
     public void init(ServletConfig servletConfig) {
@@ -15,7 +16,7 @@ public class HttpServlet implements Servlet,RequestMethod{
     }
 
     @Override
-    public void service(Request var1, Response var2) {
+    public void service(Request var1, Response var2) throws Exception{
         if (var1.getHeader().getMethod().equals(Constant.METHOD_GET)){
             doGet(var1,var2);
         }
@@ -26,21 +27,15 @@ public class HttpServlet implements Servlet,RequestMethod{
 
     @Override
     public String getServletInfo() {
-        return null;
+        return "abc";
     }
-
     @Override
     public void demise() {
 
     }
 
     @Override
-    public void doGet(Request request, Response response) {
-
-    }
-
-    @Override
-    public void doPost(Request request, Response response) {
-
+    public ServletContext getServletContext() {
+        return ServletContext.getServletContext();
     }
 }

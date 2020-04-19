@@ -8,8 +8,6 @@ package com.zhangjian.config;
  */
 public interface Constant {
     int PORT=8080;
-
     String METHOD_GET = "GET";
-
     String METHOD_POST = "POST";
 }

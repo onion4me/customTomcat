@@ -6,4 +6,5 @@ package com.zhangjian.servlet;
  * @date 2020/4/18
  */
 public interface ServletConfig {
+    ServletContext getServletContext();
 }

@@ -11,5 +11,5 @@ import com.zhangjian.servlet.Response;
 public interface BootStrapMapping {
     void start();
     void init(ServletMappingConfig servletMappingConfig);
-    void dispatch(Request request, Response response);
+    void dispatch(Request request, Response response) throws Exception;
 }

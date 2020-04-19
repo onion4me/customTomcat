@@ -12,11 +12,13 @@ import com.zhangjian.servlet.Response;
 public class MyServlet extends HttpServlet {
 
     @Override
-    public void doGet(Request request, Response response) {
+    public void doGet(Request request, Response response) throws Exception{
+        response.sendResponse("hello");
     }
 
     @Override
-    public void doPost(Request request, Response response) {
-
+    public void doPost(Request request, Response response) throws Exception{
+        System.out.println(request.getHeader().getParam("username"));
     }
+
 }

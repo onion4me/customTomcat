@@ -6,6 +6,6 @@ package com.zhangjian.servlet;
  * @date 2020/4/18
  */
 public interface RequestMethod {
-    void doGet(Request request,Response response);
-    void doPost(Request request,Response response);
+    void doGet(Request request,Response response) throws Exception;
+    void doPost(Request request,Response response) throws Exception;
 }

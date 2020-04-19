@@ -12,6 +12,7 @@ public class ServletMapping {
     private String servletClass;
 
     public ServletMapping() {
+
     }
 
     public ServletMapping(String servletName, String servletUrl, String servletClass) {

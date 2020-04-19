@@ -9,7 +9,7 @@ public interface Servlet {
     /** 初始化 */
     void init(ServletConfig servletConfig);
     /** 逻辑处理 */
-    void service(Request var1,Response var2);
+    void service(Request var1,Response var2) throws Exception;
     /** 捕捉信息 */
     String getServletInfo();
     /** 销毁 */
